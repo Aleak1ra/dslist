@@ -19,7 +19,9 @@ import java.util.Objects;
         private String platforms;
         private double score;
         private String imgUrl;
+        @Column(columnDefinition = "TEXT")
         private String shortDescription;
+        @Column(columnDefinition = "TEXT")
         private String longDescription;
 
         public Game(){
